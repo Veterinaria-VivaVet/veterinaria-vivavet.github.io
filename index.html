@@ -6,39 +6,311 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Veterinária VivaVet",
+      "image": "",
+      "@id": "https://www.vivavetrj.com.br/",
+      "url": "https://www.vivavetrj.com.br/",
+      "telephone": "+55 21 3228-0512",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Divisória, 55",
+        "addressLocality": "Rio de Janeiro",
+        "postalCode": "21331-250",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -22.8660225,
+        "longitude": -43.3628674
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:30",
+        "closes": "17:00"
+      },{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:30",
+        "closes": "16:00"
+      }],
+      "sameAs": [
+        "https://br.pinterest.com/veterinariovv/",
+        "https://www.linkedin.com/in/veterinaria-vivavet/",
+        "https://pt.wikipedia.org/wiki/Veterinariavivavet",
+        "https://www.vivavetrj.com.br/",
+        "https://www.youtube.com/@VeterinariaVivaVet",
+        "https://twitter.com/veterinariovv",
+        "https://veterinariovv.blogspot.com/",
+        "https://www.instagram.com/vivavetrj",
+        "https://www.facebook.com/vivavetrj",
+        "https://github.com/Veterinaria-VivaVet"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "146"
+      },
+      "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Jacqueline Castro"
+        },
+        "reviewBody": "Atendimento 100% excelente. A Roberta examinou minha filhinha dos pés à cabeça.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Alexandra Silva"
+        },
+        "reviewBody": "Minha experiência com foi maravilhosa. Alto profissionalismo e muito carinho com meu pet. Simplesmente encantada com o atendimento do Dr. Felipe.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Elisabete Martins"
+        },
+        "reviewBody": "Ficamos muito satisfeitas. A pessoa que nos atendeu na recepção é muito educada. A Veterinária (Dra. Joyce) é simplesmente excelente.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Jordana Oliveira de Jesus Teixeira"
+        },
+        "reviewBody": "O dr Felipe é um ótimo profissional. Muito ético, carinhoso e trabalha com amor. O local da clínica é de fácil acesso. A recepcionista também muito atenciosa. Obrigada por tudo. Indico muito.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        }
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Andrea Freire"
+        },
+        "reviewBody": "Profissionais que amam o q fazem, carinhosos, atenciosos e competentes. Agradeço a todos, principalmente o Dr Felipe pela dedicação, empenho e carinho que sempre tratou minhas filhas de 4 patas, a mais velha Layla e a caçula Luna, quando precisaram dos seus cuidados.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        }
+      }
+    ]
+    ,
+      "description": "A Veterinária VivaVet, situada no coração de Bento Ribeiro, RJ, é aclamada por sua abordagem afetuosa e profissional no cuidado animal. Especializada no tratamento humanizado e na saúde dos pets, a clínica se destaca pelo atendimento excepcional do Dr. Felipe e sua equipe, oferecendo serviços de consultas, cirurgias, vacinação e muito mais."
+    }
+    </script>
+     
+    }
+    </script>
 </head>
   <style>
+
+.container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 800px; /* Ajuste conforme necessário */
+            margin: 0 auto;
+        }
+
+        /* Estilo para a coluna de texto à esquerda */
+        .text-column {
+            width: 60%; /* Ajuste conforme necessário */
+        }
+
+        /* Estilo para a coluna de imagem à direita */
+        .image-column {
+            width: 40%; /* Ajuste conforme necessário */
+        }
+
+        .container-direita {
+            display: flex;
+            justify-content: space-between;
+            max-width: 800px; /* Ajuste conforme necessário */
+            margin: 0 auto;
+        }
+
+         /* Estilo para a coluna de texto à direita */
+         .text-column {
+            width: 60%; /* Ajuste conforme necessário */
+        }
+
+        /* Estilo para a coluna de imagem à esquerda */
+        .image-column {
+            width: 40%; /* Ajuste conforme necessário */
+        }
+
   div.container-fluid.p-5.text-white.text-center {
     background-color: #74D47C;
   }
+
+  div.container-fluid.p-5.text-black.text-center {
+    font-size: 25px;
+    text-decoration:none;
+  }
+
+  * {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  flex: 10;
+  text-align: center;
+  padding: 50px;
+  height: 600px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
   </style>
 <body>
 
 <div class="container-fluid p-5 text-white text-center">
   <h1>Veterinária VivaVet</h1>
+  <p>Na Veterinária VivaVet, disponibilizamos uma extensa variedade de serviços dedicados ao bem-estar dos seus queridos animais de estimação. Nossos serviços abrangem consultas, procedimentos cirúrgicos, imunizações, exames laboratoriais, ultrassonografias e radiografias.</p>
 </div>
   <div class="container-fluid p-5 text-black text-center">
-  <a href="https://google.com">Veterinária VivaVet</a>
+  <p>Sobre nossa <a href="https://maps.google.com/maps?cid=5978527005209815401">Veterinária</a></p>
 </div>
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+  <div class="container">
+    <div class="text-column">
+      <h2>Consulta Veterinária</h2>
+      <p>Em nossa veterinária, todas as consultas são previamente agendadas, e estamos empenhados em proporcionar um ambiente acolhedor e agradável tanto para nossos pacientes quanto para seus cuidadores. Os animais sob nossos cuidados aguardam a disponibilidade do veterinário em uma área confortável e segura.</p>
     </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    <div class="image-column">
+        <img src="caminho/para/sua/imagem.jpg" alt="Sua Imagem">
     </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>
 </div>
 
+<div class="container-direita">
+  <div class="image-column">
+    <br><img src="caminho/para/sua/imagem.jpg" alt="Sua Imagem">
+</div>
+  <div class="text-column">
+      <h2>Vacinas</h2>
+      <p>Realizamos a imunização completa do seu animal de estimação utilizando vacinas importadas, assegurando uma proteção eficaz. Para facilitar o acompanhamento dos cuidados essenciais, incluindo a vacinação, fornecemos uma carteirinha personalizada. Todo o processo é conduzido com segurança e confiabilidade.</p>
+
+      <p>Oferecemos as seguintes vacinas:</p>
+        
+      <p>V10 e V8 (para cães)</p>
+        <p>V4 (para gatos)</p>
+        <p>Antirrábica (raiva)</p>
+        <p>Giárdia</p>
+        <p>Pneumodog (gripe)</p>
+  </div>
+</div>
+  <div class="container">
+    <div class="text-column">
+      <br><h2>Cirurgias e Castrações</h2>
+      <p>A equipe altamente qualificada da Veterinária VivaVet utiliza tecnologia de última geração para realizar intervenções cirúrgicas e procedimentos de esterilização em animais de estimação. Entre as práticas mais comuns, incluem-se esterilização, terapia ortopédica, remoção de tumores, correção de hérnias, e diversos outros procedimentos. Garantimos a segurança e qualidade no cuidado da saúde do seu fiel companheiro.</p>
+    </div>
+    <br><div class="image-column">
+      <br><img src="caminho/para/sua/imagem.jpg" alt="Sua Imagem">
+    </div>
+</div>
+
+<div class="container mt-5">
+  <div class="mt-4 p-5 text-black rounded">
+    <center><h2>Veterinária VivaVet</h2>
+    <p>Veterinária VivaVet
+      Rua Divisória, 55 - Bento Ribeiro, Rio de Janeiro - RJ, 21331-250 
+      
+      <p>Telefone
+      (21) 3228-0512</p>
+      
+      
+      <a href="https://www.vivavetrj.com.br/">https://www.vivavetrj.com.br/</a><br>
+      
+      <br><p>Horário de Funcionamento:</p>
+      Seg a Sex 09:30 as 17:00
+      Sábado    09:30 as 16:00</p> 
+  </div></center>
+</div>
+
+<center><div class="row">
+  <div class="column">
+    <iframe style="margin: 0px auto; display: block;" xml="lang" src="https://www.google.com/maps/d/embed?mid=1hfzkGtWCfrLFdRPtUX8o3MbIqjyOOT0&amp;ehbc=2E312F" width="540" height="420" data-service="google"></iframe>
+  </div>
+  <div class="column" >
+    <iframe style="margin: 0px auto; display: block;" xml="lang" src="https://www.google.com/maps/d/embed?mid=1kqoojHlYo2Kb3nijSMJzbkpv07KGUOI&amp;ehbc=2E312F" width="540" height="420" data-service="google"></iframe>
+  </div>
+  <center><div class="row">
+    <div class="column">
+      <iframe style="margin: 0px auto; display: block;" xml="lang" src="https://www.google.com/maps/d/embed?mid=1aO_YVDJNAJS-OFu47ia-cgtmsOhmN8o&amp;ehbc=2E312F" width="540" height="420"></iframe>
+    </div>
+    <div class="column">
+      <iframe style="margin: 0px auto; display: block;" xml="lang" src="https://www.google.com/maps/d/embed?mid=1ybxv7YiJQnCL747uqPx6nkhWBUOSWKo&amp;ehbc=2E312F" width="540" height="420"></iframe></center>
+    </div>
+    <center><div class="row">
+      <div class="column">
+       <iframe style="margin: 0px auto; display: block;" xml="lang" src="https://www.google.com/maps/d/embed?mid=1hcL7AXIZb6NCHw2H9teDyEnIepQx-IQ&amp;ehbc=2E312F" width="540" height="420" data-service="google"></iframe>
+      </div>
+      <div class="column">
+        <iframe style="margin: 0px auto; display: block;" xml="lang" src="https://www.google.com/maps/d/embed?mid=15svKt_ZYEzjnrgxv0erklZckFjT1KoU&amp;ehbc=2E312F" width="540" height="420"></iframe>
+      </div>
+</div>
+
+<br>
+<div dir="ltr" style="text-align: center;"><a href="https://docs.google.com/document/d/1DkRPJ5wBjE3HW1ZwMZurvnSY18zWh4_VgPDXFV_K0kk/edit?usp=sharing"><span>https://docs.google.com/document/d/1DkRPJ5wBjE3HW1ZwMZurvnSY18zWh4_VgPDXFV_K0kk/edit?usp=sharing</span></a><br><br></div>
+<div dir="ltr" style="text-align: center;"><a href="https://docs.google.com/spreadsheets/d/1ek0cJ7P5pCC51XlEnx6cI80xmmQi7APBoaBn9BDteP4/edit?usp=sharing"><span>https://docs.google.com/spreadsheets/d/1ek0cJ7P5pCC51XlEnx6cI80xmmQi7APBoaBn9BDteP4/edit?usp=sharing</span></a></div>
+<div dir="ltr" style="text-align: center;"><span>&nbsp;</span></div>
+<div dir="ltr" style="text-align: center;"><a href="https://docs.google.com/presentation/d/1PpIPoy4w5qcdgFoO729SB8uvHH3pAU8QIZkV5xXwWLA/edit?usp=sharing"><span>https://docs.google.com/presentation/d/1PpIPoy4w5qcdgFoO729SB8uvHH3pAU8QIZkV5xXwWLA/edit?usp=sharing</span></a></div>
+<div dir="ltr" style="text-align: center;"><span>&nbsp;</span></div>
+<div dir="ltr" style="text-align: center;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4ZINnfv-isjzaaSP7rVhBrwGqYSEbU0ej-oCsgshT1bcw_g/viewform?usp=sf_link"><span>https://docs.google.com/forms/d/e/1FAIpQLSe4ZINnfv-isjzaaSP7rVhBrwGqYSEbU0ej-oCsgshT1bcw_g/viewform?usp=sf_link</span></a></div>
+<div dir="ltr" style="text-align: center;"><span>&nbsp;</span></div>
+<div dir="ltr" style="text-align: center;"><a href="https://docs.google.com/drawings/d/1N6bmjNG3yfoKQr4xI-Qydz-wivUY22bvaex8VxBU-gM/edit?usp=sharing"><span>https://docs.google.com/drawings/d/1N6bmjNG3yfoKQr4xI-Qydz-wivUY22bvaex8VxBU-gM/edit?usp=sharing</span></a></div>
+<div dir="ltr" style="text-align: center;"><span>&nbsp;</span></div>
+<div dir="ltr" style="text-align: center;"><a href="https://jamboard.google.com/d/1lwpZXSr7vuoD0CUA1EiZBOOQY3kC3uPRKZpT1wU54EQ/edit?usp=sharing"><span>https://jamboard.google.com/d/1lwpZXSr7vuoD0CUA1EiZBOOQY3kC3uPRKZpT1wU54EQ/edit?usp=sharing</span></a></div>
+<div dir="ltr" style="text-align: center;"><span>&nbsp;</span></div>
+<div dir="ltr" style="text-align: center;"><a href="https://script.google.com/d/15ALa_rFiQi42ChjZiDUyRGRw3GWz2v_pehJOGSaDqsTCM7eBy7Wp5h09/edit?usp=sharing"><span>https://script.google.com/d/15ALa_rFiQi42ChjZiDUyRGRw3GWz2v_pehJOGSaDqsTCM7eBy7Wp5h09/edit?usp=sharing</span></a><br><br>
+<div>
+<div><a href="https://www.google.com/maps/place/?cid=5978527005209815401" rel="noopener" target="_blank"><span>https://www.google.com/maps/place/?cid=5978527005209815401</span></a></div>
+<br>
+<div><a href="https://www.google.com/localservices/prolist?src=2&amp;q=Veterin%C3%A1ria%20VivaVet%20%7C%20Cirurgias%20%7C%20Castra%C3%A7%C3%A3o%20%7C%20Vacinas%20%7C%20Ultrassonografia%20R.%20Divis%C3%B3ria%2C%2055%20-%20Bento%20Ribeiro%2CRio%20de%20Janeiro%20-%20RJ%2C21331-250" rel="noopener" target="_blank"><span>https://www.google.com/localservices/prolist?src=2&amp;q=Veterin%C3%A1ria%20VivaVet%20%7C%20Cirurgias%20%7C%20Castra%C3%A7%C3%A3o%20%7C%20Vacinas%20%7C%20Ultrassonografia%20R.%20Divis%C3%B3ria%2C%2055%20-%20Bento%20Ribeiro%2CRio%20de%20Janeiro%20-%20RJ%2C21331-250 </span></a></div>
+<br>
+<div><a href="https://www.google.com/search?kgmid=/g/11g078bsyc" rel="noopener" target="_blank"><span>https://www.google.com/search?kgmid=/g/11g078bsyc </span></a></div>
+<br>
+<div><a href="https://www.google.com/search?kgmid=/g/11g078bsyc#lpc=lpc" rel="noopener" target="_blank"><span>https://www.google.com/search?kgmid=/g/11g078bsyc#lpc=lpc </span></a></div>
+<br>
+<div><a href="https://www.google.com/search?kgmid=/g/11g078bsyc&amp;uact=5#lpqa=d,2" rel="noopener" target="_blank"><span>https://www.google.com/search?kgmid=/g/11g078bsyc&amp;uact=5#lpqa=d,2 </span></a></div>
+<br>
+<div><a href="https://www.google.com/search?kgmid=/g/11g078bsyc&amp;uact=5#lpstate=pid:-1" rel="noopener" target="_blank"><span>https://www.google.com/search?kgmid=/g/11g078bsyc&amp;uact=5#lpstate=pid:-1 </span></a></div>
+<br>
+<div><a href="https://www.google.com/maps/place/?q=place_id:ChIJtQlFA3pjmQARaWmcuaL-91I" rel="noopener" target="_blank"><span>https://www.google.com/maps/place/?q=place_id:ChIJtQlFA3pjmQARaWmcuaL-91I</span></a></div>
+</div>
+</div>
 </body>
 </html>
